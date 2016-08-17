@@ -163,6 +163,7 @@ static const struct razer_usb_device razer_usbdev_table[] = {
 	USB_MOUSE(0x1532, RAZER_NAGA_PID_EPIC, &razer_naga_base_ops),
 	USB_MOUSE(0x1532, RAZER_NAGA_PID_2012, &razer_naga_base_ops),
 	USB_MOUSE(0x1532, RAZER_NAGA_PID_HEX, &razer_naga_base_ops),
+	USB_MOUSE(0x1532, RAZER_NAGA_PID_HEX_V2, &razer_naga_base_ops),
 	USB_MOUSE(0x1532, RAZER_NAGA_PID_2014, &razer_naga_base_ops),
 	USB_MOUSE(0x1532, RAZER_NAGA_PID_HEX_2014, &razer_naga_base_ops),
 	USB_MOUSE(0x1532, 0x0101, &razer_copperhead_base_ops),

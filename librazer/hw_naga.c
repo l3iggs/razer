@@ -615,6 +615,9 @@ int razer_naga_init(struct razer_mouse *m,
 	case RAZER_NAGA_PID_HEX:
 	    model = "Naga Hex";
 	    break;
+	case RAZER_NAGA_PID_HEX_V2:
+	    model = "Naga Hex v2";
+	    break;
 	case RAZER_NAGA_PID_2014:
 	    model = "Naga 2014";
 	    break;
