@@ -564,7 +564,7 @@ int razer_naga_init(struct razer_mouse *m,
 	priv->led_states[NAGA_LED_SCROLL] = RAZER_LED_ON;
 	/* FIXME: not supported for Epic? */
 	priv->led_states[NAGA_LED_LOGO] = RAZER_LED_ON;
-	if (desc.idProduct == RAZER_NAGA_PID_2014)
+	if ((desc.idProduct == RAZER_NAGA_PID_2014) || (desc.idProduct == RAZER_NAGA_PID_HEX_V2))
 		priv->led_states[NAGA_LED_THUMB_GRID] = RAZER_LED_ON;
 	else
 		priv->led_states[NAGA_LED_THUMB_GRID] = RAZER_LED_UNKNOWN;
