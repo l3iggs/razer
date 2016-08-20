@@ -169,7 +169,7 @@ static const struct razer_usb_device razer_usbdev_table[] = {
 	USB_MOUSE(0x1532, 0x0005, &razer_boomslangce_base_ops),
 	USB_MOUSE(0x1532, 0x0017, &razer_imperator_base_ops),
 	USB_MOUSE(0x1532, 0x0034, &razer_taipan_base_ops),
-	USB_MOUSE(0x1532, 0x0050, &razer_mamba_te_base_ops), /*mamba tournament edition*/
+	USB_MOUSE(0x1532, 0x0046, &razer_mamba_te_base_ops), /*mamba tournament edition*/
 	{ 0, }, /* List end */
 };
 #undef USB_MOUSE
